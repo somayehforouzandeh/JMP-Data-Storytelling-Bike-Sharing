@@ -50,7 +50,7 @@ The project follows a **data storytelling approach**, transforming analytical re
 
 ![User Type Distribution](Screenshots/User%20Type%20Distribution.png)
 
-The distribution of user types provides an initial overview of the composition of bike-sharing demand.
+The distribution of demand reveals two distinct user profiles. Registered users account for a larger and more stable share of system usage, while Casual users show more variable behavior.
 
 ---
 
@@ -58,7 +58,7 @@ The distribution of user types provides an initial overview of the composition o
 
 ![Seasonal Demand by User Type](Screenshots/Seasonal%20Demand%20by%20User%20Type.png)
 
-Seasonality plays an important role in bike-sharing demand, with different usage patterns observed across Registered and Casual users.
+Demand increases during warmer seasons for both user groups. The response is stronger among Casual users, while Registered users remain comparatively active across seasons.
 
 ---
 
@@ -66,15 +66,23 @@ Seasonality plays an important role in bike-sharing demand, with different usage
 
 ![Working Day vs. Non-Working Day Demand](Screenshots/Working%20Day%20vs.%20Non-Working%20Day%20Demand.png)
 
-Comparing working and non-working days helps identify differences in commuting-related and leisure-oriented bike-sharing behavior.
+Casual users are more active on non-working days, while Registered users show stronger demand on working days.
 
 ---
 
-## 📈 Weekly Demand Patterns by User Type
+## 📈 Weekly Demand Pattern of Registered Users
 
-![Weekly Demand Patterns by User Type](Screenshots/Weekly%20Demand%20Patterns%20by%20User%20Type.png)
+![Weekly Demand Pattern of Registered Users](Screenshots/Weekly%20Demand%20Pattern%20of%20Registered%20Users.png)
 
-Weekly patterns reveal how demand varies throughout the days of the week and how user behavior differs between user groups.
+Registered users show stronger demand during the middle of the working week, reflecting routine and commuting-oriented usage.
+
+---
+
+## 📈 Weekly Demand Pattern of Casual Users
+
+![Weekly Demand Pattern of Casual Users](Screenshots/Weekly%20Demand%20Pattern%20of%20Casual%20Users.png)
+
+Casual users show stronger demand around the beginning and end of the week, reflecting more flexible and leisure-oriented usage patterns.
 
 ---
 
@@ -82,7 +90,7 @@ Weekly patterns reveal how demand varies throughout the days of the week and how
 
 ![Weather Condition and User Demand](Screenshots/Weather%20Condition%20and%20User%20Demand.png)
 
-Weather conditions are analyzed to investigate their potential influence on bike-sharing demand.
+Both user groups prefer favorable weather conditions. Casual users show greater sensitivity to less comfortable conditions, while Registered users are more resilient.
 
 ---
 
@@ -90,7 +98,7 @@ Weather conditions are analyzed to investigate their potential influence on bike
 
 ![Temperature and Bike-Sharing Demand](Screenshots/Temperature%20and%20Bike-Sharing%20Demand.png)
 
-Temperature demonstrates a meaningful relationship with bike-sharing demand and is one of the most important environmental variables analyzed.
+Demand generally increases as temperatures become more favorable for cycling. Temperature is one of the strongest environmental drivers analyzed.
 
 ---
 
@@ -98,7 +106,7 @@ Temperature demonstrates a meaningful relationship with bike-sharing demand and 
 
 ![Humidity and Bike-Sharing Demand](Screenshots/Humidity%20and%20Bike-Sharing%20Demand.png)
 
-Humidity also shows a relationship with bike-sharing demand, although its explanatory power is lower than that of temperature.
+Higher humidity is associated with lower bike-sharing usage, particularly among Casual users.
 
 ---
 
@@ -106,7 +114,7 @@ Humidity also shows a relationship with bike-sharing demand, although its explan
 
 ![Wind Speed and Bike-Sharing Demand](Screenshots/Wind%20Speed%20and%20Bike-Sharing%20Demand.png)
 
-Wind speed demonstrates a comparatively weak relationship with bike-sharing demand in this analysis.
+Demand generally decreases as wind speed increases. However, wind speed has a weaker relationship with demand than temperature and humidity.
 
 ---
 
@@ -114,7 +122,7 @@ Wind speed demonstrates a comparatively weak relationship with bike-sharing dema
 
 ![Environmental Drivers of Bike-Sharing Demand](Screenshots/Environmental%20Drivers%20of%20Bike-Sharing%20Demand.png)
 
-This comparison provides an overview of the relative influence of the environmental variables analyzed.
+Temperature shows the strongest relationship with demand, followed by humidity. Wind speed demonstrates the weakest relationship among the environmental variables analyzed.
 
 ---
 
@@ -122,7 +130,7 @@ This comparison provides an overview of the relative influence of the environmen
 
 ![Regression Analysis Temperature vs Demand](Screenshots/Regression%20Analysis%20Temperature%20vs%20Demand.png)
 
-Regression analysis was used to evaluate the relationship between temperature and bike-sharing demand.
+Regression analysis provides statistical support for the relationship between temperature and bike-sharing demand.
 
 ---
 
@@ -130,7 +138,7 @@ Regression analysis was used to evaluate the relationship between temperature an
 
 ![Regression Analysis Humidity vs Demand](Screenshots/Regression%20Analysis%20Humidity%20vs%20Demand.png)
 
-Regression analysis was also used to investigate the relationship between humidity and bike-sharing demand.
+Humidity also shows a meaningful relationship with demand, although its explanatory power is lower than that of temperature.
 
 ---
 
@@ -223,7 +231,8 @@ JMP-Data-Storytelling-Bike-Sharing/
 │   ├── Temperature and Bike-Sharing Demand.png
 │   ├── User Type Distribution.png
 │   ├── Weather Condition and User Demand.png
-│   ├── Weekly Demand Patterns by User Type.png
+│   ├── Weekly Demand Pattern of Registered Users.png
+│   ├── Weekly Demand Pattern of Casual Users.png
 │   ├── Wind Speed and Bike-Sharing Demand.png
 │   └── Working Day vs. Non-Working Day Demand.png
 │
