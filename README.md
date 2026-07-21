@@ -20,6 +20,12 @@ The project follows a **data storytelling approach**, transforming analytical re
 
 ---
 
+## 📊 Dataset
+
+The original dataset is not included in this repository.
+
+---
+
 ## 🎯 Objectives
 
 * Explore bike-sharing demand patterns
