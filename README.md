@@ -44,33 +44,97 @@ The project follows a **data storytelling approach**, transforming analytical re
 
 ---
 
-## 📊 Visual Analysis
+# 📊 Visual Analysis
 
-### 👥 User Type Distribution
+## 👥 User Type Distribution
 
 ![User Type Distribution](Screenshots/User%20Type%20Distribution.png)
 
-The distribution of users provides an initial understanding of the composition of bike-sharing demand across different user groups.
+The distribution of user types provides an initial overview of the composition of bike-sharing demand.
 
 ---
 
-### 🌦️ Weather Condition and User Demand
+## 🌦️ Seasonal Demand by User Type
+
+![Seasonal Demand by User Type](Screenshots/Seasonal%20Demand%20by%20User%20Type.png)
+
+Seasonality plays an important role in bike-sharing demand, with different usage patterns observed across Registered and Casual users.
+
+---
+
+## 📅 Working Day vs. Non-Working Day Demand
+
+![Working Day vs. Non-Working Day Demand](Screenshots/Working%20Day%20vs.%20Non-Working%20Day%20Demand.png)
+
+Comparing working and non-working days helps identify differences in commuting-related and leisure-oriented bike-sharing behavior.
+
+---
+
+## 📈 Weekly Demand Patterns by User Type
+
+![Weekly Demand Patterns by User Type](Screenshots/Weekly%20Demand%20Patterns%20by%20User%20Type.png)
+
+Weekly patterns reveal how demand varies throughout the days of the week and how user behavior differs between user groups.
+
+---
+
+## 🌦️ Weather Condition and User Demand
 
 ![Weather Condition and User Demand](Screenshots/Weather%20Condition%20and%20User%20Demand.png)
 
-Weather conditions provide important context for understanding variations in bike-sharing demand.
+Weather conditions are analyzed to investigate their potential influence on bike-sharing demand.
 
 ---
 
-### 🌡️ Environmental Drivers of Bike-Sharing Demand
+## 🌡️ Temperature and Bike-Sharing Demand
+
+![Temperature and Bike-Sharing Demand](Screenshots/Temperature%20and%20Bike-Sharing%20Demand.png)
+
+Temperature demonstrates a meaningful relationship with bike-sharing demand and is one of the most important environmental variables analyzed.
+
+---
+
+## 💧 Humidity and Bike-Sharing Demand
+
+![Humidity and Bike-Sharing Demand](Screenshots/Humidity%20and%20Bike-Sharing%20Demand.png)
+
+Humidity also shows a relationship with bike-sharing demand, although its explanatory power is lower than that of temperature.
+
+---
+
+## 💨 Wind Speed and Bike-Sharing Demand
+
+![Wind Speed and Bike-Sharing Demand](Screenshots/Wind%20Speed%20and%20Bike-Sharing%20Demand.png)
+
+Wind speed demonstrates a comparatively weak relationship with bike-sharing demand in this analysis.
+
+---
+
+## 🌍 Environmental Drivers of Bike-Sharing Demand
 
 ![Environmental Drivers of Bike-Sharing Demand](Screenshots/Environmental%20Drivers%20of%20Bike-Sharing%20Demand.png)
 
-Environmental variables such as temperature, humidity, and wind speed were analyzed to investigate their relationship with bike-sharing demand.
+This comparison provides an overview of the relative influence of the environmental variables analyzed.
 
 ---
 
-## 📈 Statistical Analysis
+## 📊 Regression Analysis: Temperature vs. Demand
+
+![Regression Analysis Temperature vs Demand](Screenshots/Regression%20Analysis%20Temperature%20vs%20Demand.png)
+
+Regression analysis was used to evaluate the relationship between temperature and bike-sharing demand.
+
+---
+
+## 📊 Regression Analysis: Humidity vs. Demand
+
+![Regression Analysis Humidity vs Demand](Screenshots/Regression%20Analysis%20Humidity%20vs%20Demand.png)
+
+Regression analysis was also used to investigate the relationship between humidity and bike-sharing demand.
+
+---
+
+# 📈 Statistical Analysis
 
 Regression analysis was used to evaluate the relationship between bike-sharing demand and selected environmental variables.
 
@@ -82,11 +146,11 @@ Regression analysis was used to evaluate the relationship between bike-sharing d
 
 > **Key Insight:** Temperature is the strongest environmental driver of bike-sharing demand among the variables analyzed.
 
-The moderate R² values also indicate that bike-sharing demand is influenced by multiple factors rather than a single environmental variable.
+The moderate R² values indicate that bike-sharing demand is influenced by multiple factors rather than a single environmental variable.
 
 ---
 
-## 📌 Key Insights
+# 📌 Key Insights
 
 ### 👥 User Behavior
 
@@ -104,26 +168,24 @@ Humidity also shows a meaningful relationship with demand, while wind speed demo
 
 ---
 
-## 🖼️ Complete Visual Analysis
+# 🛠️ Tools & Methods
 
-The complete collection of analytical visualizations is available in the [`Screenshots`](Screenshots) folder.
+## Tool
 
-The project includes:
+* **JMP**
 
-* User Type Distribution
-* Seasonal Demand by User Type
-* Working Day vs. Non-Working Day Demand
-* Weekly Demand Patterns by User Type
-* Weather Condition and User Demand
-* Temperature and Bike-Sharing Demand
-* Humidity and Bike-Sharing Demand
-* Wind Speed and Bike-Sharing Demand
-* Environmental Drivers of Bike-Sharing Demand
-* Regression Analysis of Environmental Variables
+## Methods
+
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Comparative Analysis
+* Regression Analysis
+* Statistical Interpretation
+* Data Storytelling
 
 ---
 
-## 📄 Reports
+# 📄 Reports
 
 ### 🇬🇧 English Report
 
@@ -135,24 +197,7 @@ The project includes:
 
 ---
 
-## 🛠️ Tools & Methods
-
-### Tool
-
-* **JMP**
-
-### Methods
-
-* Exploratory Data Analysis (EDA)
-* Data Visualization
-* Comparative Analysis
-* Regression Analysis
-* Statistical Interpretation
-* Data Storytelling
-
----
-
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 JMP-Data-Storytelling-Bike-Sharing/
@@ -170,16 +215,26 @@ JMP-Data-Storytelling-Bike-Sharing/
 │   └── Data-Storytelling-with-JMP-FA.pdf
 │
 ├── Screenshots/
-│   └── Final JMP Charts
+│   ├── Environmental Drivers of Bike-Sharing Demand.png
+│   ├── Humidity and Bike-Sharing Demand.png
+│   ├── Regression Analysis Humidity vs Demand.png
+│   ├── Regression Analysis Temperature vs Demand.png
+│   ├── Seasonal Demand by User Type.png
+│   ├── Temperature and Bike-Sharing Demand.png
+│   ├── User Type Distribution.png
+│   ├── Weather Condition and User Demand.png
+│   ├── Weekly Demand Patterns by User Type.png
+│   ├── Wind Speed and Bike-Sharing Demand.png
+│   └── Working Day vs. Non-Working Day Demand.png
 │
 └── README.md
 ```
 
 ---
 
-## 💡 Final Insight
+# 💡 Final Insight
 
-> Data becomes more powerful when analysis is transformed into a story.
+> **Data becomes more powerful when analysis is transformed into a story.**
 
 This project demonstrates how visualization and statistical analysis can work together to reveal behavioral patterns, identify environmental drivers, and transform raw data into meaningful insights.
 
@@ -193,4 +248,4 @@ Industrial Engineer | Business Intelligence | Data Analytics
 
 ---
 
-⭐ If you find this project interesting, feel free to explore the visualizations and analytical reports.
+⭐ Explore the visualizations and analytical reports to discover the key insights from this bike-sharing demand analysis.
